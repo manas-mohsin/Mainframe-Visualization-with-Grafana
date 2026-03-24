@@ -1,14 +1,14 @@
 # Grafana Mainframe Visualization (Demo Project)
 
-This repository is a **GitHub-ready Grafana project** that visualizes **mainframe-style operational metrics** (CPU, zIIP, MIPS, memory, I/O, queues, transaction latency, address-space hot spots).
+This repository is a **Grafana project** that visualizes **mainframe-style operational metrics** (CPU, zIIP, MIPS, memory, I/O, queues, transaction latency, address-space hot spots).
 
-It ships with:
+The project includes:
 
 - **Grafana** (dashboard auto-provisioned)
 - **Prometheus** (scrapes metrics)
 - A small **"mainframe exporter"** (Python) that **simulates** z/OS-like metrics in Prometheus format
 
-> ✅ You can use this as a starting point and replace the simulator with real mainframe telemetry (SMF/RMF, OMEGAMON, z/OSMF, etc.) later.
+> You can use this as a starting point and replace the simulator with real mainframe telemetry (SMF/RMF, OMEGAMON, z/OSMF, etc.) later.
 
 ---
 
